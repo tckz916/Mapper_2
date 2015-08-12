@@ -1,0 +1,41 @@
+name: Mapper_2
+version: 1.0.0
+main: com.github.tckz916.mapper.Mapper
+
+commands:
+    mapper:
+        description: Mapper Command
+        aliases:
+        permission:
+    putchest:
+        description: Putchest Command
+        aliases:
+        permission:
+    clearchest:
+        description: Clearchest Command
+        aliases:
+        permission:
+    playerhead:
+        description: Playerhead Command
+        aliases:
+        permission:
+    getmaterial:
+        description: Material Command
+        aliases:
+        permission:
+    enchantment:
+        description: Enchantment Command
+        aliases:
+        permission:
+    getenchantment:
+        description: Getenchantment Command
+        aliases:
+        permission:
+    setname:
+        description: Setname Command
+        aliases:
+        permission:
+    setlore:
+        description: Setlore Command
+        aliases:
+        permission:

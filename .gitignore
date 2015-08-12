@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+## Maven
+target/
+dependency-reduced-pom.xml
+## IDE / Editor
+*.iml
+.idea/
+## Windows / Mac OS
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+=======
+## Edit and IDE files
+.idea
+## Other
+target
+>>>>>>> ebd4e0f760a3e0b4c2c1f57627230d8e9642ce47
