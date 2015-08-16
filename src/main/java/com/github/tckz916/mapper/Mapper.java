@@ -1,6 +1,8 @@
 package com.github.tckz916.mapper;
 
 import com.github.tckz916.mapper.command.*;
+import com.github.tckz916.mapper.listener.BlockListener;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
@@ -10,12 +12,15 @@ public class Mapper extends JavaPlugin {
 
     private static Mapper instance;
 
+    private PluginManager pm = this.getServer().getPluginManager();
+
     @Override
     public void onEnable() {
         super.onEnable();
         instance = this;
 
         registercommand();
+        registerlistener();
 
     }
 
@@ -38,6 +43,9 @@ public class Mapper extends JavaPlugin {
         getCommand("setlore").setExecutor(new SetloreCommand());
     }
 
+    private void registerlistener() {
+        pm.registerEvents(new BlockListener(), this);
+    }
 
     public static Mapper getInstance() {
         return instance;
