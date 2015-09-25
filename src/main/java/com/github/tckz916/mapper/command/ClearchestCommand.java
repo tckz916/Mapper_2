@@ -30,7 +30,8 @@ public class ClearchestCommand implements CommandExecutor {
 
         @SuppressWarnings("deprecation")
         Block block = player.getTargetBlock((HashSet<Byte>) null, 10);
-        if (!block.getType().equals(Material.CHEST)) {
+        if (!(block.getType().equals(Material.CHEST)
+                || block.getType().equals(Material.TRAPPED_CHEST))) {
             Util.sendmessage(player, "&cチェストが見つかりません。");
             return true;
         }
