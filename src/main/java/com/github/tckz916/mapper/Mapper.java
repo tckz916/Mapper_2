@@ -1,6 +1,7 @@
 package com.github.tckz916.mapper;
 
 import com.github.tckz916.mapper.command.*;
+import com.github.tckz916.mapper.command.tabcomplete.EnchantmentTabComplete;
 import com.github.tckz916.mapper.listener.BlockListener;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;

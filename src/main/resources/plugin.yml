@@ -5,37 +5,28 @@ main: com.github.tckz916.mapper.Mapper
 commands:
     mapper:
         description: Mapper Command
-        aliases:
-        permission:
+        aliases: m
     putchest:
         description: Putchest Command
-        aliases:
-        permission:
+        aliases: pc
     clearchest:
         description: Clearchest Command
-        aliases:
-        permission:
+        aliases: cc
     playerhead:
         description: Playerhead Command
-        aliases:
-        permission:
+        aliases: ph
     getmaterial:
         description: Material Command
-        aliases:
-        permission:
+        aliases: gm
     enchantment:
         description: Enchantment Command
-        aliases:
-        permission:
+        aliases: e
     getenchantment:
         description: Getenchantment Command
-        aliases:
-        permission:
+        aliases: ge
     setname:
         description: Setname Command
-        aliases:
-        permission:
+        aliases: sn
     setlore:
         description: Setlore Command
-        aliases:
-        permission:
+        aliases: sl

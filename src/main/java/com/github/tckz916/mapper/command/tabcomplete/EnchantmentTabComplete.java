@@ -1,4 +1,4 @@
-package com.github.tckz916.mapper.command;
+package com.github.tckz916.mapper.command.tabcomplete;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
